@@ -1,10 +1,10 @@
 Rebuilding the Coding STEM Academy tutoring center website!
 
-Technologies used:
-Vue.js
-Jenkins/Docker
-SASS
-Gulp
+Technologies used:  
+Vue.js . 
+Jenkins/Docker . 
+SASS . 
+Gulp . 
 
 When implementing a new feature, use the following commands:
 `git checkout -b <name>/<feature-name>`
