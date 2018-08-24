@@ -1,13 +1,16 @@
-Rebuilding the Coding STEM Academy tutoring center website!
+# New Website Project #
+---
+## Rebuilding the Coding STEM Academy tutoring center website! ##
 <br />
 
-Technologies used:  
+## Technologies used: ##
 Vue.js <br /> 
 Jenkins/Docker <br />
 SASS <br />
 Gulp <br />
 <br />
 
+## Development ##
 When implementing a new feature, use the following commands: <br />
 `git checkout -b <name>/<feature-name>`
 
@@ -20,4 +23,9 @@ When you are ready to push your changes to the repository, use the following com
 Please merge into the develop branch and see if it works on the deployment pipeline. master branch is sacred as that is the code currently in production.
 <br />
 
+## Communication ##
+Join our Slack workspace, this is our main method of communication!
+https://join.slack.com/t/codingstemacademy/shared_invite/enQtNDIxODE3NDE1NTM3LTY0Y2NiODQ2YjMzMTlkOTdhNjFmNjhkMjdlNzkxMGU3YjUwNTg1YzdjN2IwMmM1NWQxOWNkYzFiNDI3NDM0OGI
+
+## Improvement ##
 See a typo/feature you would like to work on? Open a pull request and contact Mr. Leo at codingstemacademy@gmail.com 
