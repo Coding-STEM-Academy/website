@@ -1,6 +1,8 @@
 # New Website Project #
----
+<br />
+
 ## Rebuilding the Coding STEM Academy tutoring center website! ##
+We're planning to use the newest industry technologies to redesign and revamp the website for the tutoring center! 
 <br />
 
 ## Technologies used: ##
