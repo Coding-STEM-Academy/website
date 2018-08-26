@@ -76,10 +76,8 @@
       "jasmine": true
     },
     "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
+      "quotes": [2,"single"],
+      "linebreak-style": 0
     },
     "root": true,
     "parser": "babel-eslint",
@@ -92,9 +90,10 @@
   },
   "dependencies": {
     "generator-fountain-vue": "^1.0.0",
+    "gulp-install": "^1.1.0",
     "vue": "^2.1.10",
-    "vue-router": "^2.2.1",
-    "vue-resource": "^1.2.0"
+    "vue-resource": "^1.2.0",
+    "vue-router": "^2.2.1"
   },
   "scripts": {
     "build": "gulp",
