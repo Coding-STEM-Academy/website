@@ -2,11 +2,11 @@
 <br />
 
 ## Rebuilding the Coding STEM Academy tutoring center website! ##
-We're planning to use the newest industry technologies to redesign and revamp the website for the tutoring center! 
+We're planning to use the newest industry technologies to redesign and revamp the website for the tutoring center!
 <br />
 
 ## Technologies used: ##
-Vue.js <br /> 
+Vue.js <br />
 Jenkins/Docker <br />
 SASS <br />
 Gulp <br />
@@ -20,14 +20,30 @@ When you are ready to push your changes to the repository, use the following com
 `git add -A` <br />
 `git commit -m "message"` <br/>
 `git push` <br />
+
 <br />
 
 Please merge into the develop branch and see if it works on the deployment pipeline. master branch is sacred as that is the code currently in production.
 <br />
+
+### Notes for Windows Users ###
+Add following commands in **package.json** under `"rules"`: <br />
+` "linebreak-style": 0 ` <br />
+The entire code should looks like: <br />
+~~~~
+"rules": {
+  "quotes": [2,"single"],
+  "linebreak-style": 0
+},
+~~~~
+
+Change following commands in **.eslintrc.js** under `"rules"`: <br />
+`"linebreak-style": ["error", "unix"],` -> `"linebreak-style": ["error", "windows"],`
+
 
 ## Communication ##
 Join our Slack workspace, this is our main method of communication!
 https://join.slack.com/t/codingstemacademy/shared_invite/enQtNDIxODE3NDE1NTM3LTY0Y2NiODQ2YjMzMTlkOTdhNjFmNjhkMjdlNzkxMGU3YjUwNTg1YzdjN2IwMmM1NWQxOWNkYzFiNDI3NDM0OGI
 
 ## Improvement ##
-See a typo/feature you would like to work on? Open a pull request and contact Mr. Leo at codingstemacademy@gmail.com 
+See a typo/feature you would like to work on? Open a pull request and contact Mr. Leo at codingstemacademy@gmail.com
