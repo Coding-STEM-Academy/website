@@ -1,7 +1,7 @@
 <template>
   <div class="techs-container">
     <h2 class="techs-h2">
-      Cooked with all these awesome technologies:
+      Tech container
     </h2>
     <div class="techs">
       <tech v-for="tech in techs" :tech="tech"></tech>

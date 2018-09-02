@@ -1,13 +1,17 @@
 <template>
-  <header class="header">
-    <p class="header-title">
-      <a href="https://github.com/FountainJS/generator-fountain-webapp" target="_blank" rel="noopener noreferrer">
-        Fountain Generator
-      </a>
-    </p>
-    <p class="header-date">
-      Generated with FountainJS v0.6.0 on Wed Aug 10 2016 10:13:26 GMT+0200 (CEST)
-    </p>
+  <header>
+    <div id="nav">
+      <a href="#default" id="logo">Coding Stem Academy</a>
+      <div id="nav-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">ABOUT</a>
+        <a href="#news">NEWS</a>
+        <a href="#competition">COMPETITION</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#internships">INTERNSHIPS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
   </header>
 </template>
 
