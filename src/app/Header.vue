@@ -1,8 +1,11 @@
 <template>
   <header>
+
     <div id="nav">
-      <a href="#default" id="logo">Coding Stem Academy</a>
-      <div id="nav-right">
+      <div id="title">
+        <a href="#default">Coding Stem Academy</a>
+      </div>
+      <div id="nav-btn">
         <a class="active" href="#home">Home</a>
         <a href="#about">ABOUT</a>
         <a href="#news">NEWS</a>
@@ -12,6 +15,7 @@
         <a href="#contact">CONTACT</a>
       </div>
     </div>
+
   </header>
 </template>
 

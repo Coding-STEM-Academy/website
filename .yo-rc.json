@@ -14,7 +14,7 @@
       "modules": "webpack",
       "css": "scss",
       "ci": [],
-      "sample": "techs",
+      "sample": "body",
       "router": "router"
     }
   }
