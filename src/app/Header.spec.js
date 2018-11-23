@@ -5,3 +5,7 @@ describe('Header', () => {
     expect(Header.name).toEqual('Header');
   });
 });
+
+AOS.init({
+  duration: 1200,
+})

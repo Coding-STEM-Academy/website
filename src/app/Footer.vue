@@ -1,6 +1,5 @@
 <template>
   <footer class="footer">
-    <p>This is tests </p>
   </footer>
 </template>
 

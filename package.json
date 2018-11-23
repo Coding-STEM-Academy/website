@@ -8,14 +8,17 @@
     "test:auto": "gulp test:auto"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "generator-fountain-vue": "^1.0.0",
     "gulp-install": "^1.1.0",
+    "serve": "^10.1.1",
     "vue": "^2.5.17",
     "vue-resource": "^1.2.0",
     "vue-router": "^2.2.1",
     "vuetify": "^1.2.2"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.0.0-beta.49",
     "autoprefixer": "^6.7.3",
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
